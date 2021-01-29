@@ -1,0 +1,304 @@
+{
+  "id": "b06ef1b5-6cb0-4780-b4cc-df89ed125820",
+  "version": "2.0",
+  "name": "Chaka Automation test",
+  "url": "https://test.chaka.ng",
+  "tests": [{
+    "id": "4ecee894-fdb1-4719-bc84-ed5522a88fff",
+    "name": "Chaka Banking Categories",
+    "commands": [{
+      "id": "3e3009ae-b054-4b17-992d-b475c1ff011f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "31c3a2a2-7341-4156-b330-624bae951e14",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1616x876",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "038f5403-e520-481f-8488-d8982435301a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Log In",
+      "targets": [
+        ["linkText=Log In", "linkText"],
+        ["css=.home", "css:finder"],
+        ["xpath=//a[contains(text(),'Log In')]", "xpath:link"],
+        ["xpath=//header[@id='header']/nav/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/login')]", "xpath:href"],
+        ["xpath=//nav/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Log In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5f237f0-ca72-4ea9-8c38-dff154784856",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.auth-form__group:nth-child(3) .form__input", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/main/div/form/div/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a65e833-31a5-44f2-9981-a472d532a3de",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.auth-form__group:nth-child(3) .form__input", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/main/div/form/div/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "princefamous01@yahoo.com"
+    }, {
+      "id": "8258800f-e2bb-4dab-8286-db8311e96e0f",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.auth-form__group:nth-child(4) .form__input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/main/div/form/div[2]/label/input", "xpath:idRelative"],
+        ["xpath=//div[2]/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f997055-c89b-4bd2-9260-c0d9ff9ec9b5",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.auth-form__group:nth-child(4) .form__input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/main/div/form/div[2]/label/input", "xpath:idRelative"],
+        ["xpath=//div[2]/label/input", "xpath:position"]
+      ],
+      "value": "Chaka@0573"
+    }, {
+      "id": "1ccc1223-37a2-4461-951c-773dc51c333c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.action",
+      "targets": [
+        ["css=.action", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/main/div/form/div[4]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4bbe54a-6169-44cb-a9ab-0ccfc3dbca68",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,208)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b7f3c573-c891-4c03-ac26-d46bee82cf51",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,264)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "94aa1cac-89e6-4e49-9bb8-99b822d53a0e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.side-nav__item:nth-child(2) .side-nav__text",
+      "targets": [
+        ["css=.side-nav__item:nth-child(2) .side-nav__text", "css:finder"],
+        ["xpath=//header[@id='header']/nav/div/ul/li[2]/a/span", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Explore')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "14243c28-022a-4341-b3f6-af36954562cf",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Explore",
+      "targets": [
+        ["linkText=Explore", "linkText"],
+        ["css=.active:nth-child(1)", "css:finder"],
+        ["xpath=//header[@id='header']/nav/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/dashboard/explore')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Explore')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "54de8153-efde-4567-a1b9-3b66706b172e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,663)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bee2d9c7-10fe-4e0d-a71d-bc2baa715d0c",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "linkText=Electric Vehicles (EV)",
+      "targets": [
+        ["linkText=Electric Vehicles (EV)", "linkText"],
+        ["css=span:nth-child(9) .card-news:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='app']/main/section/section/span/section/div/a", "xpath:idRelative"],
+        ["xpath=//span/section/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Electric Vehicles (EV)')]", "xpath:innerText"]
+      ],
+      "value": "119.5,101"
+    }, {
+      "id": "c24bffbb-1b0f-4147-8362-5bba02ecbaa3",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "linkText=Electric Vehicles (EV)",
+      "targets": [
+        ["linkText=Electric Vehicles (EV)", "linkText"],
+        ["css=span:nth-child(9) .card-news:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='app']/main/section/section/span/section/div/a", "xpath:idRelative"],
+        ["xpath=//span/section/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Electric Vehicles (EV)')]", "xpath:innerText"]
+      ],
+      "value": "119.5,101"
+    }, {
+      "id": "bcb8d8e7-11ed-4329-ba7d-f71f11dfd204",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "linkText=Electric Vehicles (EV)",
+      "targets": [
+        ["linkText=Electric Vehicles (EV)", "linkText"],
+        ["css=span:nth-child(9) .card-news:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='app']/main/section/section/span/section/div/a", "xpath:idRelative"],
+        ["xpath=//span/section/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Electric Vehicles (EV)')]", "xpath:innerText"]
+      ],
+      "value": "119.5,101"
+    }, {
+      "id": "84fcf708-320c-43e2-90f3-4aa99d5825ee",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dashboard__main",
+      "targets": [
+        ["css=.dashboard__main", "css:finder"],
+        ["xpath=//div[@id='app']/main/section/section", "xpath:idRelative"],
+        ["xpath=//section/section", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "92049ffc-ec9f-4665-984b-b1cffe4f1c92",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.tag-container",
+      "targets": [
+        ["css=.tag-container", "css:finder"],
+        ["xpath=//div[@id='app']/main/section/section/section[3]/div", "xpath:idRelative"],
+        ["xpath=//section[3]/div", "xpath:position"]
+      ],
+      "value": "150.5,126"
+    }, {
+      "id": "37e3831f-7391-45ab-ab7d-621ab8a03733",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.tag-container",
+      "targets": [
+        ["css=.tag-container", "css:finder"],
+        ["xpath=//div[@id='app']/main/section/section/section[3]/div", "xpath:idRelative"],
+        ["xpath=//section[3]/div", "xpath:position"]
+      ],
+      "value": "150.5,126"
+    }, {
+      "id": "b55b65f0-16a3-4c56-b736-9f01def11b68",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.tag-container",
+      "targets": [
+        ["css=.tag-container", "css:finder"],
+        ["xpath=//div[@id='app']/main/section/section/section[3]/div", "xpath:idRelative"],
+        ["xpath=//section[3]/div", "xpath:position"]
+      ],
+      "value": "150.5,126"
+    }, {
+      "id": "59902897-b5ea-483f-b355-d0e66e6abe21",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tag-item:nth-child(9) > .tag-name",
+      "targets": [
+        ["css=.tag-item:nth-child(9) > .tag-name", "css:finder"],
+        ["xpath=//div[@id='app']/main/section/section/section[3]/div/div[9]/div", "xpath:idRelative"],
+        ["xpath=//div[9]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "716189a1-6b72-43dc-a9dc-df9f1972cebf",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=2",
+      "targets": [
+        ["index=2"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f5e611d-83bd-4098-a796-7a271846bcfe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.helpcrunch-notification-wrapper > #helpcrunch-popup-close-button path:nth-child(1)",
+      "targets": [
+        ["css=.helpcrunch-notification-wrapper > #helpcrunch-popup-close-button path:nth-child(1)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "4651112e-b45d-4f8c-a75c-11c3c957f76f",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "b43c7847-1ad4-4655-9edf-053343f6c951",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logout",
+      "targets": [
+        ["linkText=Logout", "linkText"],
+        ["css=.side-nav__link--inner:nth-child(9)", "css:finder"],
+        ["xpath=//a[contains(text(),'Logout')]", "xpath:link"],
+        ["xpath=//header[@id='header']/nav/ul/li/span/span/div/a[9]", "xpath:idRelative"],
+        ["xpath=//a[9]", "xpath:position"],
+        ["xpath=//a[contains(.,'Logout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ce058ca-2516-4656-a9c3-77eb696cbaf1",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "f47dda98-ac92-40e8-b1bb-2df4d34c70f5",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://test.chaka.ng/"],
+  "plugins": []
+}
